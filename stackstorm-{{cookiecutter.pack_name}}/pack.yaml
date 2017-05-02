@@ -1,0 +1,9 @@
+---
+ref: {{cookiecutter.pack_name}}
+name: {{cookiecutter.pack_name}}
+description: {{cookiecutter.pack_description}}
+keywords: {% for keyword in cookiecutter.keywords_csv.split(',') %}
+    - {{ keyword }}{% endfor %}
+version: {{cookiecutter.version}}
+author: {{cookiecutter.author_name}}
+email: {{cookiecutter.author_email}}

@@ -8,12 +8,12 @@ This is based off of the standard repository structure described here: https://d
 
 Install cookiecutter
 ``` bash
-pip install -U cookiecutter
+$ pip install -U cookiecutter
 ```
 
 Generate a project from a new clone of this repository. You will be prompted for some common answers that will be used to fill out information in the various pack files.
 ``` bash
-cookiecutter https://github.com/EncoreTechnologies/cookiecutter-stackstorm.git
+$ cookiecutter https://github.com/EncoreTechnologies/cookiecutter-stackstorm.git
 pack_name [xxx]: cookiecutterexample
 pack_description [Pack description.]: An example pack directory structure created using cookiecutter.
 version [0.1.0]: 

@@ -42,6 +42,11 @@ stackstorm-<pack_name>/
     requirements-test.txt
 ```
 
+**Note:** After you run cookiecutter once with the full URL you can shorthand next run by just specifying the template name:
+```
+$ cookiecutter cookiecutter-stackstorm
+```
+
 ## Contributions
 Hopefully this is helpful in creating new packs, if not please feel free to contribute back.
 

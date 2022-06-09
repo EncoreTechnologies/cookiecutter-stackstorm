@@ -108,6 +108,7 @@ ci/
 
 # Ignore Mac DS_Store
 *.DS_Store
+.DS_Store
 
 # Idea from JetBrains
 .idea

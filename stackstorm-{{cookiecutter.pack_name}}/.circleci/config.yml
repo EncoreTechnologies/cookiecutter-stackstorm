@@ -1,20 +1,16 @@
 version: 2
 
 jobs:
-  build_and_test:
+  circleci_is_disabled_job:
     docker:
-      - image: circleci/python:2.7
-      - image: rabbitmq:3
-      - image: mongo:3.4
-
+      - image: cimg/base:stable
     steps:
-      - checkout
       - run:
-          name: Run tests
-          command: make all
+          shell: /bin/bash
+          command: echo CircleCI disabled on StackStorm-Exchange
 
 workflows:
   version: 2
-  build_test_deploy:
+  circleci_is_disabled:
     jobs:
-      - build_and_test
+      - circleci_is_disabled_job

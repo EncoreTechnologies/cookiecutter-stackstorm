@@ -7,3 +7,5 @@ keywords: {% for keyword in cookiecutter.keywords_csv.split(',') %}
 version: {{cookiecutter.version}}
 author: {{cookiecutter.author_name}}
 email: {{cookiecutter.author_email}}
+python_versions:
+  - "3"
